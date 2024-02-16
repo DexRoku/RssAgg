@@ -15,8 +15,7 @@ Display feed items with title, description, and link.
 Customize the number of feed items to display.
 
 
-git clone https://github.com/your-username/RssAgg
-
+git clone https://github.com/DexRoku/RssAgg.git
 
 Usage
 
