@@ -1,14 +1,5 @@
 
                                                                                            
-88888888ba    ad88888ba    ad88888ba      88888888888                               88     
-88      "8b  d8"     "8b  d8"     "8b     88                                        88     
-88      ,8P  Y8,          Y8,             88                                        88     
-88aaaaaa8P'  `Y8aaaaa,    `Y8aaaaa,       88aaaaa   ,adPPYba,   ,adPPYba,   ,adPPYb,88     
-88""""88'      `"""""8b,    `"""""8b,     88"""""  a8P_____88  a8P_____88  a8"    `Y88     
-88    `8b            `8b          `8b     88       8PP"""""""  8PP"""""""  8b       88     
-88     `8b   Y8a     a8P  Y8a     a8P     88       "8b,   ,aa  "8b,   ,aa  "8a,   ,d88     
-88      `8b   "Y88888P"    "Y88888P"      88        `"Ybbd8"'   `"Ybbd8"'   `"8bbdP"Y8     
-                                                                                           
                                                                                            
 RSS Feed Reader in Go
 
