@@ -1,6 +1,7 @@
 package main
 
 import (
+	"cors"
 	"fmt"
 	"log"
 	"net/http"
@@ -24,7 +25,6 @@ func main() {
 
 	// Here we have cors handler have a definiton of what the server accepts
 	// Like https http, GET, POST, PUT, DELETE, OPTIONS etc
-
 	router.Use(cors.Handler(cors.Options{
 		AllowedOrigins:  []string{"https://*", "http://*"},
 		AllowedMethods:  []string{"GET", "POST", "PUT", "DELETE", "OPTIONS"},
@@ -33,6 +33,11 @@ func main() {
 		AllowCredetials: false,
 		MaxAge:          300,
 	}))
+
+	v1Router := chi.NewRouter()
+	v1Router.HandleFunc("/healthz", handlerReadiness)
+
+	router.Mount("/v1", v1Router)
 
 	httpServer := &http.Server{
 		Handler: router,
