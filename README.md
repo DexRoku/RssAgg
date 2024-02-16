@@ -49,8 +49,5 @@ License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
-
-If you have any questions or suggestions, feel free to contact me at your-email@example.com.
 
 Feel free to customize the README template to better fit the specifics of your project. Include information about how to use your RSS feed reader, how to configure it, how to contribute to the project, and any other relevant details. Happy coding!
